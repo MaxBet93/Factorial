@@ -11,7 +11,6 @@ function sumFactorials(start, finish, step) {
   for (let i = start; i <= finish; i ++) {
       factorial *= i;
 console.log(factorial)
-      // считаем сумму
       if ((i - start) % step == 0) {
           sum += factorial;
       }
